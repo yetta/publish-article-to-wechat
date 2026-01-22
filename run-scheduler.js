@@ -6,16 +6,16 @@ import logger from './src/logger.js';
 // 加载环境变量
 dotenv.config();
 
-const cronExpression = process.env.SCHEDULE_CRON || '0 6 * * *';
+const cronExpression = process.env.SCHEDULE_CRON || '0 7 * * *';
 
 logger.info('========== 启动定时任务 ==========');
 logger.info(`定时任务表达式: ${cronExpression}`);
-logger.info('默认每日 6:00 AM 自动发布笔记');
+logger.info('默认每日 7:00 AM 自动发布笔记');
 logger.info('按 Ctrl+C 停止');
 
-// 定时任务：每天早上 6:00 执行
+// 定时任务：每天早上 7:00 执行
 // Cron 表达式: 分 时 日 月 周
-// 0 6 * * * = 每天 6:00
+// 0 7 * * * = 每天 7:00
 cron.schedule(cronExpression, async () => {
     logger.info('\n========== 定时任务触发 ==========');
     try {

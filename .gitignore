@@ -5,7 +5,7 @@ node_modules/
 .env
 
 # Logs
-# logs/
+logs/
 
 # Draft backups (optional, uncomment if you don't want to track)
 # draft/
