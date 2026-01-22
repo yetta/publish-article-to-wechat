@@ -1,0 +1,27 @@
+{
+    "name": "publish-article-to-wechat",
+    "version": "1.0.0",
+    "description": "自动将 Obsidian 笔记发布到微信公众号草稿箱",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+        "start": "node index.js",
+        "setup-schedule": "node scripts/setup-schedule.js",
+        "test": "node index.js"
+    },
+    "keywords": [
+        "obsidian",
+        "wechat",
+        "automation",
+        "markdown"
+    ],
+    "author": "",
+    "license": "MIT",
+    "dependencies": {
+        "axios": "^1.6.0",
+        "dotenv": "^16.3.1",
+        "form-data": "^4.0.0",
+        "marked": "^11.0.0",
+        "node-cron": "^3.0.3"
+    }
+}
