@@ -1,0 +1,160 @@
+[2026-01-17T06:43:52.657Z] [INFO] 找到笔记: 2026-01-16-✌️-Murati's-co-founders-return-to-OpenAI-1.md
+[2026-01-17T06:43:52.765Z] [INFO] 解析笔记完成: 标题="📰 AI 行业动态：人才流动与技术创新", 图片数量=13
+[2026-01-17T06:44:03.271Z] [INFO] 正在获取微信 access_token...
+[2026-01-17T06:44:04.418Z] [ERROR] 获取 access_token 失败
+Error: 获取 access_token 失败: invalid ip 119.147.213.34 ipv6 ::ffff:119.147.213.34, not in whitelist rid: 696b2fba-7d47f7af-2969db3f
+    at WechatAPI.getAccessToken (file:///Users/xuye/Documents/AI-CODE/obsidian-workspace/publish-article-to-wechat/src/wechat-api.js:41:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2026-01-17T06:49:04.132Z] [INFO] ========== 开始发布笔记 ==========
+[2026-01-17T06:49:04.153Z] [INFO] 查找日期 2026-01-17 的笔记...
+[2026-01-17T06:49:04.154Z] [INFO] 未找到日期 2026-01-17 的笔记
+[2026-01-17T06:49:04.154Z] [WARN] 未找到今日笔记，跳过发布
+[2026-01-17T06:49:04.155Z] [WARN] 
+任务结束: no_note
+[2026-01-17T06:49:41.947Z] [INFO] ========== 开始发布笔记 ==========
+[2026-01-17T06:49:41.951Z] [INFO] 查找日期 2026-01-17 的笔记...
+[2026-01-17T06:49:41.951Z] [INFO] 找到笔记: 2026-01-17-✌️-Murati's-co-founders-return-to-OpenAI-7.md
+[2026-01-17T06:49:41.956Z] [INFO] 解析笔记完成: 标题="📰 OpenAI 迎来重要人才回流：Murati 的联合创始人重返公司", 图片数量=6
+[2026-01-17T06:49:41.957Z] [INFO] 准备发布笔记: 📰 OpenAI 迎来重要人才回流：Murati 的联合创始人重返公司
+[2026-01-17T06:49:41.957Z] [INFO] 正在获取微信 access_token...
+[2026-01-17T06:49:42.388Z] [SUCCESS] 成功获取 access_token
+[2026-01-17T06:49:42.388Z] [INFO] 正在上传素材: img-1768623476245-h0rwbe.jpg (image)
+[2026-01-17T06:49:43.663Z] [SUCCESS] 素材上传成功: media_id=69dz72H3jep_p6Ogot1KrVlwOzB8LmASThoeuKtxv4mFKbVizMNvmEmGhgwsN8yk
+[2026-01-17T06:49:43.664Z] [INFO] 封面图上传成功: 69dz72H3jep_p6Ogot1KrVlwOzB8LmASThoeuKtxv4mFKbVizMNvmEmGhgwsN8yk
+[2026-01-17T06:49:43.664Z] [INFO] 正在上传正文图片: img-1768623476245-h0rwbe.jpg
+[2026-01-17T06:49:44.280Z] [SUCCESS] 图片上传成功: http://mmbiz.qpic.cn/mmbiz_jpg/saLP2vrCA0FHUlBjCeb3aR01ZeFIydec0zQ0jcibpw9q5vKeUx9WN7rvNickRpVloibibQdqjAM06xdaHAeVTwficlg/0?from=appmsg
+[2026-01-17T06:49:44.280Z] [INFO] 正在上传正文图片: img-1768623477290-72439i.jpg
+[2026-01-17T06:49:44.826Z] [SUCCESS] 图片上传成功: http://mmbiz.qpic.cn/mmbiz_jpg/saLP2vrCA0FHUlBjCeb3aR01ZeFIydecWHtKNnYfUicxaAgOnw3UPxJfAQt9LqBricfNcUlU71thH1Rt1iarjIgow/0?from=appmsg
+[2026-01-17T06:49:44.827Z] [INFO] 正在上传正文图片: img-1768623477626-ku6axp.jpg
+[2026-01-17T06:49:45.436Z] [SUCCESS] 图片上传成功: http://mmbiz.qpic.cn/mmbiz_jpg/saLP2vrCA0FHUlBjCeb3aR01ZeFIydecicLCXfrgiaicV2zwHckRjFXyibdsUZKPvqWziccjibnOwlZH9kZv642F6qWA/0?from=appmsg
+[2026-01-17T06:49:45.436Z] [INFO] 正在上传正文图片: img-1768623478020-rcq63r.png
+[2026-01-17T06:49:46.090Z] [SUCCESS] 图片上传成功: http://mmbiz.qpic.cn/mmbiz_png/saLP2vrCA0FHUlBjCeb3aR01ZeFIydecTBIkibiaWF9KfdAzSrcOKOdOw2gpaIP5gd26qtumdu2UPzV3NC4ZMNZA/0?from=appmsg
+[2026-01-17T06:49:46.090Z] [INFO] 正在上传正文图片: img-1768623478625-4mguqe.jpg
+[2026-01-17T06:49:46.942Z] [SUCCESS] 图片上传成功: http://mmbiz.qpic.cn/mmbiz_jpg/saLP2vrCA0FHUlBjCeb3aR01ZeFIydecRV74chf17nVGOZC5qBOJOGicQsv90IfHiaVBcHR7OaCPg1gkkAkBbUww/0?from=appmsg
+[2026-01-17T06:49:46.943Z] [INFO] 正在上传正文图片: img-1768623475364-g63qb.jpg
+[2026-01-17T06:49:47.260Z] [SUCCESS] 图片上传成功: http://mmbiz.qpic.cn/mmbiz_jpg/saLP2vrCA0FHUlBjCeb3aR01ZeFIydec42K2MzjL1VyopFqiaojfemxp3XQqPqsDWvdPxhHrR9EWlpErQBSqdIQ/0?from=appmsg
+[2026-01-17T06:49:47.293Z] [INFO] 草稿已保存到本地: /Users/xuye/Documents/AI-CODE/obsidian-workspace/publish-article-to-wechat/draft/draft_2026-01-17.html
+[2026-01-17T06:49:47.293Z] [INFO] 正在创建草稿: 📰 OpenAI 迎来重要人才回流：Murati 的联合创始人重返公司
+[2026-01-17T06:49:49.686Z] [SUCCESS] 草稿创建成功: media_id=69dz72H3jep_p6Ogot1KrbC1G4ZZ7gAw2wbEPWeXOLik1l4Ms5uOAWhuoXvBX527
+[2026-01-17T06:49:49.687Z] [SUCCESS] ✓ 草稿发布成功! media_id: 69dz72H3jep_p6Ogot1KrbC1G4ZZ7gAw2wbEPWeXOLik1l4Ms5uOAWhuoXvBX527
+[2026-01-17T06:49:49.691Z] [SUCCESS] 
+任务完成！草稿已发布到微信公众号
+[2026-01-17T07:07:50.175Z] [INFO] ========== 开始发布笔记 ==========
+[2026-01-17T07:07:50.180Z] [INFO] 查找日期 2026-01-17 的笔记...
+[2026-01-17T07:07:50.181Z] [INFO] 找到笔记: 2026-01-17-✌️-Murati's-co-founders-return-to-OpenAI-7.md
+[2026-01-17T07:07:50.181Z] [INFO] 解析笔记完成: 标题="📰 OpenAI 迎来重要人才回流：Murati 的联合创始人重返公司", 图片数量=6
+[2026-01-17T07:07:50.182Z] [INFO] 准备发布笔记: 📰 OpenAI 迎来重要人才回流：Murati 的联合创始人重返公司
+[2026-01-17T07:07:50.182Z] [INFO] 正在获取微信 access_token...
+[2026-01-17T07:07:50.710Z] [SUCCESS] 成功获取 access_token
+[2026-01-17T07:07:50.710Z] [INFO] 正在上传素材: img-1768623476245-h0rwbe.jpg (image)
+[2026-01-17T07:07:51.964Z] [SUCCESS] 素材上传成功: media_id=69dz72H3jep_p6Ogot1Krfk6VsuYvLvkbCem527S8hPIUFGPLmhfY_9BYvhaHQYX
+[2026-01-17T07:07:51.964Z] [INFO] 封面图上传成功: 69dz72H3jep_p6Ogot1Krfk6VsuYvLvkbCem527S8hPIUFGPLmhfY_9BYvhaHQYX
+[2026-01-17T07:07:51.964Z] [INFO] 正在上传正文图片: img-1768623476245-h0rwbe.jpg
+[2026-01-17T07:07:52.589Z] [SUCCESS] 图片上传成功: http://mmbiz.qpic.cn/mmbiz_jpg/saLP2vrCA0FHUlBjCeb3aR01ZeFIydec0zQ0jcibpw9q5vKeUx9WN7rvNickRpVloibibQdqjAM06xdaHAeVTwficlg/0?from=appmsg
+[2026-01-17T07:07:52.589Z] [INFO] 正在上传正文图片: img-1768623477290-72439i.jpg
+[2026-01-17T07:07:53.145Z] [SUCCESS] 图片上传成功: http://mmbiz.qpic.cn/mmbiz_jpg/saLP2vrCA0FHUlBjCeb3aR01ZeFIydecWHtKNnYfUicxaAgOnw3UPxJfAQt9LqBricfNcUlU71thH1Rt1iarjIgow/0?from=appmsg
+[2026-01-17T07:07:53.146Z] [INFO] 正在上传正文图片: img-1768623477626-ku6axp.jpg
+[2026-01-17T07:07:53.712Z] [SUCCESS] 图片上传成功: http://mmbiz.qpic.cn/mmbiz_jpg/saLP2vrCA0FHUlBjCeb3aR01ZeFIydecicLCXfrgiaicV2zwHckRjFXyibdsUZKPvqWziccjibnOwlZH9kZv642F6qWA/0?from=appmsg
+[2026-01-17T07:07:53.712Z] [INFO] 正在上传正文图片: img-1768623478020-rcq63r.png
+[2026-01-17T07:07:54.305Z] [SUCCESS] 图片上传成功: http://mmbiz.qpic.cn/mmbiz_png/saLP2vrCA0FHUlBjCeb3aR01ZeFIydecTBIkibiaWF9KfdAzSrcOKOdOw2gpaIP5gd26qtumdu2UPzV3NC4ZMNZA/0?from=appmsg
+[2026-01-17T07:07:54.306Z] [INFO] 正在上传正文图片: img-1768623478625-4mguqe.jpg
+[2026-01-17T07:07:55.306Z] [SUCCESS] 图片上传成功: http://mmbiz.qpic.cn/mmbiz_jpg/saLP2vrCA0FHUlBjCeb3aR01ZeFIydecRV74chf17nVGOZC5qBOJOGicQsv90IfHiaVBcHR7OaCPg1gkkAkBbUww/0?from=appmsg
+[2026-01-17T07:07:55.307Z] [INFO] 正在上传正文图片: img-1768623475364-g63qb.jpg
+[2026-01-17T07:07:55.617Z] [SUCCESS] 图片上传成功: http://mmbiz.qpic.cn/mmbiz_jpg/saLP2vrCA0FHUlBjCeb3aR01ZeFIydec42K2MzjL1VyopFqiaojfemxp3XQqPqsDWvdPxhHrR9EWlpErQBSqdIQ/0?from=appmsg
+[2026-01-17T07:07:55.636Z] [INFO] 草稿已保存到本地: /Users/xuye/Documents/AI-CODE/obsidian-workspace/publish-article-to-wechat/draft/draft_2026-01-17.html
+[2026-01-17T07:07:55.636Z] [INFO] 正在创建草稿: 📰 OpenAI 迎来重要人才回流：Murati 的联合创始人重返公司
+[2026-01-17T07:07:58.087Z] [SUCCESS] 草稿创建成功: media_id=69dz72H3jep_p6Ogot1KrVKl7Nt0rWaTtp2j_ABe6nlRLZN2OpVWBbIRwEeqyKnU
+[2026-01-17T07:07:58.087Z] [SUCCESS] ✓ 草稿发布成功! media_id: 69dz72H3jep_p6Ogot1KrVKl7Nt0rWaTtp2j_ABe6nlRLZN2OpVWBbIRwEeqyKnU
+[2026-01-17T07:07:58.087Z] [SUCCESS] 
+任务完成！草稿已发布到微信公众号
+[2026-01-17T07:12:22.511Z] [INFO] ========== 开始发布笔记 ==========
+[2026-01-17T07:12:22.528Z] [INFO] 查找日期 2026-01-17 的笔记...
+[2026-01-17T07:12:22.529Z] [INFO] 找到笔记: 2026-01-17-✌️-Murati's-co-founders-return-to-OpenAI-7.md
+[2026-01-17T07:12:22.530Z] [INFO] 解析笔记完成: 标题="📰 OpenAI 迎来重要人才回流：Murati 的联合创始人重返公司", 图片数量=6
+[2026-01-17T07:12:22.530Z] [INFO] 准备发布笔记: 📰 OpenAI 迎来重要人才回流：Murati 的联合创始人重返公司
+[2026-01-17T07:12:22.531Z] [INFO] 正在获取微信 access_token...
+[2026-01-17T07:12:22.928Z] [SUCCESS] 成功获取 access_token
+[2026-01-17T07:12:22.928Z] [INFO] 正在上传素材: img-1768623476245-h0rwbe.jpg (image)
+[2026-01-17T07:12:24.257Z] [SUCCESS] 素材上传成功: media_id=69dz72H3jep_p6Ogot1KrZupqZ6okiFb1HvMf7E2KdN43qKpkgaUs-FiU3wAuA1i
+[2026-01-17T07:12:24.257Z] [INFO] 封面图上传成功: 69dz72H3jep_p6Ogot1KrZupqZ6okiFb1HvMf7E2KdN43qKpkgaUs-FiU3wAuA1i
+[2026-01-17T07:12:24.258Z] [INFO] 正在上传正文图片: img-1768623476245-h0rwbe.jpg
+[2026-01-17T07:12:24.829Z] [SUCCESS] 图片上传成功: http://mmbiz.qpic.cn/mmbiz_jpg/saLP2vrCA0FHUlBjCeb3aR01ZeFIydec0zQ0jcibpw9q5vKeUx9WN7rvNickRpVloibibQdqjAM06xdaHAeVTwficlg/0?from=appmsg
+[2026-01-17T07:12:24.829Z] [INFO] 正在上传正文图片: img-1768623477290-72439i.jpg
+[2026-01-17T07:12:25.385Z] [SUCCESS] 图片上传成功: http://mmbiz.qpic.cn/mmbiz_jpg/saLP2vrCA0FHUlBjCeb3aR01ZeFIydecWHtKNnYfUicxaAgOnw3UPxJfAQt9LqBricfNcUlU71thH1Rt1iarjIgow/0?from=appmsg
+[2026-01-17T07:12:25.386Z] [INFO] 正在上传正文图片: img-1768623477626-ku6axp.jpg
+[2026-01-17T07:12:26.022Z] [SUCCESS] 图片上传成功: http://mmbiz.qpic.cn/mmbiz_jpg/saLP2vrCA0FHUlBjCeb3aR01ZeFIydecicLCXfrgiaicV2zwHckRjFXyibdsUZKPvqWziccjibnOwlZH9kZv642F6qWA/0?from=appmsg
+[2026-01-17T07:12:26.022Z] [INFO] 正在上传正文图片: img-1768623478020-rcq63r.png
+[2026-01-17T07:12:26.618Z] [SUCCESS] 图片上传成功: http://mmbiz.qpic.cn/mmbiz_png/saLP2vrCA0FHUlBjCeb3aR01ZeFIydecTBIkibiaWF9KfdAzSrcOKOdOw2gpaIP5gd26qtumdu2UPzV3NC4ZMNZA/0?from=appmsg
+[2026-01-17T07:12:26.619Z] [INFO] 正在上传正文图片: img-1768623478625-4mguqe.jpg
+[2026-01-17T07:12:27.505Z] [SUCCESS] 图片上传成功: http://mmbiz.qpic.cn/mmbiz_jpg/saLP2vrCA0FHUlBjCeb3aR01ZeFIydecRV74chf17nVGOZC5qBOJOGicQsv90IfHiaVBcHR7OaCPg1gkkAkBbUww/0?from=appmsg
+[2026-01-17T07:12:27.506Z] [INFO] 正在上传正文图片: img-1768623475364-g63qb.jpg
+[2026-01-17T07:12:27.995Z] [SUCCESS] 图片上传成功: http://mmbiz.qpic.cn/mmbiz_jpg/saLP2vrCA0FHUlBjCeb3aR01ZeFIydec42K2MzjL1VyopFqiaojfemxp3XQqPqsDWvdPxhHrR9EWlpErQBSqdIQ/0?from=appmsg
+[2026-01-17T07:12:28.012Z] [INFO] 草稿已保存到本地: /Users/xuye/Documents/AI-CODE/obsidian-workspace/publish-article-to-wechat/draft/draft_2026-01-17.html
+[2026-01-17T07:12:28.013Z] [INFO] 正在创建草稿: 📰 OpenAI 迎来重要人才回流：Murati 的联合创始人重返公司
+[2026-01-17T07:12:30.293Z] [SUCCESS] 草稿创建成功: media_id=69dz72H3jep_p6Ogot1KrXGPZDRNBaf6P236j2R_3WFlaT2rv4m6Pos_AjmCotvT
+[2026-01-17T07:12:30.344Z] [SUCCESS] ✓ 草稿发布成功! media_id: 69dz72H3jep_p6Ogot1KrXGPZDRNBaf6P236j2R_3WFlaT2rv4m6Pos_AjmCotvT
+[2026-01-17T07:12:30.344Z] [SUCCESS] 
+任务完成！草稿已发布到微信公众号
+[2026-01-17T07:17:29.447Z] [INFO] ========== 开始发布笔记 ==========
+[2026-01-17T07:17:29.463Z] [INFO] 查找日期 2026-01-17 的笔记...
+[2026-01-17T07:17:29.464Z] [INFO] 找到笔记: 2026-01-17-✌️-Murati's-co-founders-return-to-OpenAI-7.md
+[2026-01-17T07:17:29.483Z] [INFO] 解析笔记完成: 标题="📰 OpenAI 迎来重要人才回流：Murati 的联合创始人重返公司", 图片数量=6
+[2026-01-17T07:17:29.484Z] [INFO] 准备发布笔记: 📰 OpenAI 迎来重要人才回流：Murati 的联合创始人重返公司
+[2026-01-17T07:17:29.484Z] [INFO] 正在获取微信 access_token...
+[2026-01-17T07:17:29.926Z] [SUCCESS] 成功获取 access_token
+[2026-01-17T07:17:29.926Z] [INFO] 正在上传素材: img-1768623476245-h0rwbe.jpg (image)
+[2026-01-17T07:17:31.187Z] [SUCCESS] 素材上传成功: media_id=69dz72H3jep_p6Ogot1KrQ8oyTgw2zHMjS9Top8tJsMcNEtBC7bcoE2A9Zfl450f
+[2026-01-17T07:17:31.188Z] [INFO] 封面图上传成功: 69dz72H3jep_p6Ogot1KrQ8oyTgw2zHMjS9Top8tJsMcNEtBC7bcoE2A9Zfl450f
+[2026-01-17T07:17:31.189Z] [INFO] 正在上传正文图片: img-1768623476245-h0rwbe.jpg
+[2026-01-17T07:17:31.826Z] [SUCCESS] 图片上传成功: http://mmbiz.qpic.cn/mmbiz_jpg/saLP2vrCA0FHUlBjCeb3aR01ZeFIydec0zQ0jcibpw9q5vKeUx9WN7rvNickRpVloibibQdqjAM06xdaHAeVTwficlg/0?from=appmsg
+[2026-01-17T07:17:31.831Z] [INFO] 正在上传正文图片: img-1768623477290-72439i.jpg
+[2026-01-17T07:17:32.357Z] [SUCCESS] 图片上传成功: http://mmbiz.qpic.cn/mmbiz_jpg/saLP2vrCA0FHUlBjCeb3aR01ZeFIydecWHtKNnYfUicxaAgOnw3UPxJfAQt9LqBricfNcUlU71thH1Rt1iarjIgow/0?from=appmsg
+[2026-01-17T07:17:32.357Z] [INFO] 正在上传正文图片: img-1768623477626-ku6axp.jpg
+[2026-01-17T07:17:32.864Z] [SUCCESS] 图片上传成功: http://mmbiz.qpic.cn/mmbiz_jpg/saLP2vrCA0FHUlBjCeb3aR01ZeFIydecicLCXfrgiaicV2zwHckRjFXyibdsUZKPvqWziccjibnOwlZH9kZv642F6qWA/0?from=appmsg
+[2026-01-17T07:17:32.864Z] [INFO] 正在上传正文图片: img-1768623478020-rcq63r.png
+[2026-01-17T07:17:33.435Z] [SUCCESS] 图片上传成功: http://mmbiz.qpic.cn/mmbiz_png/saLP2vrCA0FHUlBjCeb3aR01ZeFIydecTBIkibiaWF9KfdAzSrcOKOdOw2gpaIP5gd26qtumdu2UPzV3NC4ZMNZA/0?from=appmsg
+[2026-01-17T07:17:33.435Z] [INFO] 正在上传正文图片: img-1768623478625-4mguqe.jpg
+[2026-01-17T07:17:34.382Z] [SUCCESS] 图片上传成功: http://mmbiz.qpic.cn/mmbiz_jpg/saLP2vrCA0FHUlBjCeb3aR01ZeFIydecRV74chf17nVGOZC5qBOJOGicQsv90IfHiaVBcHR7OaCPg1gkkAkBbUww/0?from=appmsg
+[2026-01-17T07:17:34.383Z] [INFO] 正在上传正文图片: img-1768623475364-g63qb.jpg
+[2026-01-17T07:17:34.668Z] [SUCCESS] 图片上传成功: http://mmbiz.qpic.cn/mmbiz_jpg/saLP2vrCA0FHUlBjCeb3aR01ZeFIydec42K2MzjL1VyopFqiaojfemxp3XQqPqsDWvdPxhHrR9EWlpErQBSqdIQ/0?from=appmsg
+[2026-01-17T07:17:34.691Z] [INFO] 草稿已保存到本地: /Users/xuye/Documents/AI-CODE/obsidian-workspace/publish-article-to-wechat/draft/draft_2026-01-17.html
+[2026-01-17T07:17:34.691Z] [INFO] 正在创建草稿: 📰 OpenAI 迎来重要人才回流：Murati 的联合创始人重返公司
+[2026-01-17T07:17:36.960Z] [SUCCESS] 草稿创建成功: media_id=69dz72H3jep_p6Ogot1KrTd3mqjbib6DbavN2LIN7pA0aN03SORNrTq7NZSBvFns
+[2026-01-17T07:17:36.961Z] [SUCCESS] ✓ 草稿发布成功! media_id: 69dz72H3jep_p6Ogot1KrTd3mqjbib6DbavN2LIN7pA0aN03SORNrTq7NZSBvFns
+[2026-01-17T07:17:36.961Z] [SUCCESS] 
+任务完成！草稿已发布到微信公众号
+[2026-01-17T07:26:31.131Z] [INFO] ========== 开始发布笔记 ==========
+[2026-01-17T07:26:31.135Z] [INFO] 查找日期 2026-01-17 的笔记...
+[2026-01-17T07:26:31.136Z] [INFO] 找到笔记: 2026-01-17-✌️-Murati's-co-founders-return-to-OpenAI-7.md
+[2026-01-17T07:26:31.172Z] [INFO] 解析笔记完成: 标题="📰 OpenAI 迎来重要人才回流：Murati 的联合创始人重返公司", 图片数量=6
+[2026-01-17T07:26:31.173Z] [INFO] 原标题: 📰 OpenAI 迎来重要人才回流：Murati 的联合创始人重返公司
+[2026-01-17T07:26:31.173Z] [INFO] 清理后标题: OpenAI 迎来重要人才回流：Murati 的联合创始人重返公司
+[2026-01-17T07:26:31.173Z] [INFO] 准备发布笔记: OpenAI 迎来重要人才回流：Murati 的联合创始人重返公司
+[2026-01-17T07:26:31.174Z] [INFO] 正在获取微信 access_token...
+[2026-01-17T07:26:31.683Z] [SUCCESS] 成功获取 access_token
+[2026-01-17T07:26:31.683Z] [INFO] 正在上传素材: img-1768623476245-h0rwbe.jpg (image)
+[2026-01-17T07:26:32.979Z] [SUCCESS] 素材上传成功: media_id=69dz72H3jep_p6Ogot1KraB7iqnufVQt2thYbRH8qenl7zF-syIP8AQYN1F2rdRP
+[2026-01-17T07:26:32.980Z] [INFO] 封面图上传成功: 69dz72H3jep_p6Ogot1KraB7iqnufVQt2thYbRH8qenl7zF-syIP8AQYN1F2rdRP
+[2026-01-17T07:26:32.980Z] [INFO] 正在上传正文图片: img-1768623476245-h0rwbe.jpg
+[2026-01-17T07:26:33.597Z] [SUCCESS] 图片上传成功: http://mmbiz.qpic.cn/mmbiz_jpg/saLP2vrCA0FHUlBjCeb3aR01ZeFIydec0zQ0jcibpw9q5vKeUx9WN7rvNickRpVloibibQdqjAM06xdaHAeVTwficlg/0?from=appmsg
+[2026-01-17T07:26:33.597Z] [INFO] 正在上传正文图片: img-1768623477290-72439i.jpg
+[2026-01-17T07:26:34.362Z] [SUCCESS] 图片上传成功: http://mmbiz.qpic.cn/mmbiz_jpg/saLP2vrCA0FHUlBjCeb3aR01ZeFIydecWHtKNnYfUicxaAgOnw3UPxJfAQt9LqBricfNcUlU71thH1Rt1iarjIgow/0?from=appmsg
+[2026-01-17T07:26:34.362Z] [INFO] 正在上传正文图片: img-1768623477626-ku6axp.jpg
+[2026-01-17T07:26:34.928Z] [SUCCESS] 图片上传成功: http://mmbiz.qpic.cn/mmbiz_jpg/saLP2vrCA0FHUlBjCeb3aR01ZeFIydecicLCXfrgiaicV2zwHckRjFXyibdsUZKPvqWziccjibnOwlZH9kZv642F6qWA/0?from=appmsg
+[2026-01-17T07:26:34.928Z] [INFO] 正在上传正文图片: img-1768623478020-rcq63r.png
+[2026-01-17T07:26:35.545Z] [SUCCESS] 图片上传成功: http://mmbiz.qpic.cn/mmbiz_png/saLP2vrCA0FHUlBjCeb3aR01ZeFIydecTBIkibiaWF9KfdAzSrcOKOdOw2gpaIP5gd26qtumdu2UPzV3NC4ZMNZA/0?from=appmsg
+[2026-01-17T07:26:35.545Z] [INFO] 正在上传正文图片: img-1768623478625-4mguqe.jpg
+[2026-01-17T07:26:36.321Z] [SUCCESS] 图片上传成功: http://mmbiz.qpic.cn/mmbiz_jpg/saLP2vrCA0FHUlBjCeb3aR01ZeFIydecRV74chf17nVGOZC5qBOJOGicQsv90IfHiaVBcHR7OaCPg1gkkAkBbUww/0?from=appmsg
+[2026-01-17T07:26:36.321Z] [INFO] 正在上传正文图片: img-1768623475364-g63qb.jpg
+[2026-01-17T07:26:36.645Z] [SUCCESS] 图片上传成功: http://mmbiz.qpic.cn/mmbiz_jpg/saLP2vrCA0FHUlBjCeb3aR01ZeFIydec42K2MzjL1VyopFqiaojfemxp3XQqPqsDWvdPxhHrR9EWlpErQBSqdIQ/0?from=appmsg
+[2026-01-17T07:26:36.666Z] [INFO] 草稿已保存到本地: /Users/xuye/Documents/AI-CODE/obsidian-workspace/publish-article-to-wechat/draft/draft_2026-01-17.html
+[2026-01-17T07:26:36.667Z] [INFO] 正在创建草稿: OpenAI 迎来重要人才回流：Murati 的联合创始人重返公司
+[2026-01-17T07:26:38.753Z] [SUCCESS] 草稿创建成功: media_id=69dz72H3jep_p6Ogot1Kreh03B17a4IFLdzFrfpY2tBQb10FMwTea8aZN9Mn70qm
+[2026-01-17T07:26:38.754Z] [SUCCESS] ✓ 草稿发布成功! media_id: 69dz72H3jep_p6Ogot1Kreh03B17a4IFLdzFrfpY2tBQb10FMwTea8aZN9Mn70qm
+[2026-01-17T07:26:38.754Z] [SUCCESS] 
+任务完成！草稿已发布到微信公众号
+[2026-01-17T07:28:59.571Z] [INFO] 正在获取微信 access_token...
+[2026-01-17T07:28:59.940Z] [SUCCESS] 成功获取 access_token
+[2026-01-17T07:28:59.940Z] [INFO] 正在创建草稿: OpenAI 迎来重要人才回流：Murati 的联合创始人重返公司
+[2026-01-17T07:29:02.259Z] [SUCCESS] 草稿创建成功: media_id=69dz72H3jep_p6Ogot1KrfrSawrdAFvcdy7xhjV0EvxH45AePiXO4n9a1v92D3n-
+[2026-01-17T07:29:02.259Z] [SUCCESS] 草稿发布成功: 69dz72H3jep_p6Ogot1KrfrSawrdAFvcdy7xhjV0EvxH45AePiXO4n9a1v92D3n-

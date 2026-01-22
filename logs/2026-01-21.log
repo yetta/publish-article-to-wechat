@@ -1,0 +1,60 @@
+[2026-01-21T03:26:19.735Z] [INFO] ========== 开始发布笔记 ==========
+[2026-01-21T03:26:19.740Z] [INFO] 查找日期 2026-01-21 的笔记...
+[2026-01-21T03:26:19.741Z] [INFO] 未找到日期 2026-01-21 的笔记
+[2026-01-21T03:26:19.741Z] [WARN] 未找到今日笔记，跳过发布
+[2026-01-21T03:26:19.742Z] [WARN] 
+任务结束: no_note
+[2026-01-21T03:31:13.102Z] [INFO] ========== 开始发布笔记 ==========
+[2026-01-21T03:31:13.113Z] [INFO] 查找日期 2026-01-20 的笔记...
+[2026-01-21T03:31:13.114Z] [INFO] 找到笔记: 2026-01-20-📢-Ads-are-officially-coming-to-ChatGPT.md
+[2026-01-21T03:31:13.131Z] [INFO] 解析笔记完成: 标题="📰 OpenAI 正式在 ChatGPT 中引入广告：AI 行业的新动向", 图片数量=6
+[2026-01-21T03:31:13.132Z] [INFO] 原标题: 📰 OpenAI 正式在 ChatGPT 中引入广告：AI 行业的新动向
+[2026-01-21T03:31:13.132Z] [INFO] 清理后标题: OpenAI 正式在 ChatGPT 中引入广告：AI 行业的新动向
+[2026-01-21T03:31:13.133Z] [INFO] 准备发布笔记: OpenAI 正式在 ChatGPT 中引入广告：AI 行业的新动向
+[2026-01-21T03:31:13.133Z] [INFO] 正在获取微信 access_token...
+[2026-01-21T03:31:13.655Z] [SUCCESS] 成功获取 access_token
+[2026-01-21T03:31:13.656Z] [INFO] 正在上传素材: img-1768881964503-iulqfh.jpg (image)
+[2026-01-21T03:31:14.944Z] [SUCCESS] 素材上传成功: media_id=69dz72H3jep_p6Ogot1KrcxMZDn6SoCqpOLhOUqIPRnHomTGnWrFdI6yKFdFAsYV
+[2026-01-21T03:31:14.944Z] [INFO] 封面图上传成功: 69dz72H3jep_p6Ogot1KrcxMZDn6SoCqpOLhOUqIPRnHomTGnWrFdI6yKFdFAsYV
+[2026-01-21T03:31:14.945Z] [INFO] 正在上传正文图片: img-1768881964503-iulqfh.jpg
+[2026-01-21T03:31:15.570Z] [SUCCESS] 图片上传成功: http://mmbiz.qpic.cn/mmbiz_jpg/saLP2vrCA0FJCz1v9rJIOsibyWUcL2UQaQgqvgqcibm2fOunZsA5XOGv0YgqTerRDr7vmSVwxvBSppbMk8DDaiatA/0?from=appmsg
+[2026-01-21T03:31:15.570Z] [INFO] 正在上传正文图片: img-1768881964879-yukeuj.jpg
+[2026-01-21T03:31:16.087Z] [SUCCESS] 图片上传成功: http://mmbiz.qpic.cn/mmbiz_jpg/saLP2vrCA0FJCz1v9rJIOsibyWUcL2UQauGNzYWC6o5CtjCiaIGnKfqTXrDDzKMaCOzVM8ictp8lLKe60lTbZf82g/0?from=appmsg
+[2026-01-21T03:31:16.087Z] [INFO] 正在上传正文图片: img-1768881965328-dmsao3.jpg
+[2026-01-21T03:31:16.793Z] [SUCCESS] 图片上传成功: http://mmbiz.qpic.cn/mmbiz_jpg/saLP2vrCA0FJCz1v9rJIOsibyWUcL2UQaoJKeFibKVuicvY6sHFNmQ5CIPh8kLk1EQeR7NU8mGtxKxnQCicjokxsNA/0?from=appmsg
+[2026-01-21T03:31:16.793Z] [INFO] 正在上传正文图片: img-1768881965839-030qcr.png
+[2026-01-21T03:31:17.741Z] [SUCCESS] 图片上传成功: http://mmbiz.qpic.cn/mmbiz_png/saLP2vrCA0FJCz1v9rJIOsibyWUcL2UQafhQ75A65jlbjUOmjblLicicfbbW02Z3fml4NDLCnucScGXzvK74Uxf0g/0?from=appmsg
+[2026-01-21T03:31:17.741Z] [INFO] 正在上传正文图片: img-1768881966149-44l2g.png
+[2026-01-21T03:31:18.721Z] [SUCCESS] 图片上传成功: http://mmbiz.qpic.cn/mmbiz_png/saLP2vrCA0FJCz1v9rJIOsibyWUcL2UQajLzC5gGHn9NEHrOiaTRbBndhXXJSHYhuSVT8Iu4oKrhicOEeqXZ0eaZw/0?from=appmsg
+[2026-01-21T03:31:18.721Z] [INFO] 正在上传正文图片: img-1768881966506-207jc.jpg
+[2026-01-21T03:31:19.396Z] [SUCCESS] 图片上传成功: http://mmbiz.qpic.cn/mmbiz_jpg/saLP2vrCA0FJCz1v9rJIOsibyWUcL2UQaH0pAUjfsAODyXElaahnicM1THaGyucahOVicEniaxHNnAmCsp2uBpBUKQ/0?from=appmsg
+[2026-01-21T03:31:19.414Z] [INFO] 草稿已保存到本地: /Users/xuye/Documents/AI-CODE/obsidian-workspace/publish-article-to-wechat/draft/draft_2026-01-21.html
+[2026-01-21T03:31:19.415Z] [INFO] 正在创建草稿: OpenAI 正式在 ChatGPT 中引入广告：AI 行业的新动向
+[2026-01-21T03:31:22.122Z] [SUCCESS] 草稿创建成功: media_id=69dz72H3jep_p6Ogot1KrUHMK8t9wn-Yk0pe1KEiqOoQ3Y43ovy7xtLIteWJtP92
+[2026-01-21T03:31:22.123Z] [SUCCESS] ✓ 草稿发布成功! media_id: 69dz72H3jep_p6Ogot1KrUHMK8t9wn-Yk0pe1KEiqOoQ3Y43ovy7xtLIteWJtP92
+[2026-01-21T03:31:22.123Z] [SUCCESS] 
+任务完成！草稿已发布到微信公众号
+[2026-01-21T03:31:46.029Z] [INFO] ========== 开始发布笔记 ==========
+[2026-01-21T03:31:46.033Z] [INFO] 查找日期 2026-01-20 的笔记...
+[2026-01-21T03:31:46.034Z] [INFO] 找到笔记: 2026-01-20-🧑‍💻-Claude-Code-sparks-'selfware'-era.md
+[2026-01-21T03:31:46.035Z] [INFO] 解析笔记完成: 标题="📰 Claude Code 引爆 AI 热潮：软件行业迎来变革", 图片数量=3
+[2026-01-21T03:31:46.036Z] [INFO] 原标题: 📰 Claude Code 引爆 AI 热潮：软件行业迎来变革
+[2026-01-21T03:31:46.036Z] [INFO] 清理后标题: Claude Code 引爆 AI 热潮：软件行业迎来变革
+[2026-01-21T03:31:46.036Z] [INFO] 准备发布笔记: Claude Code 引爆 AI 热潮：软件行业迎来变革
+[2026-01-21T03:31:46.036Z] [INFO] 正在获取微信 access_token...
+[2026-01-21T03:31:46.504Z] [SUCCESS] 成功获取 access_token
+[2026-01-21T03:31:46.504Z] [INFO] 正在上传素材: img-1768965868420-9mtndv.jpg (image)
+[2026-01-21T03:31:47.541Z] [SUCCESS] 素材上传成功: media_id=69dz72H3jep_p6Ogot1KrVQpzTdEInXwvO0GMLFMxKGrpLPmBtX5Hw8X5-8qWfi4
+[2026-01-21T03:31:47.542Z] [INFO] 封面图上传成功: 69dz72H3jep_p6Ogot1KrVQpzTdEInXwvO0GMLFMxKGrpLPmBtX5Hw8X5-8qWfi4
+[2026-01-21T03:31:47.542Z] [INFO] 正在上传正文图片: img-1768965868420-9mtndv.jpg
+[2026-01-21T03:31:48.044Z] [SUCCESS] 图片上传成功: http://mmbiz.qpic.cn/mmbiz_jpg/saLP2vrCA0FJCz1v9rJIOsibyWUcL2UQaYgj6fofclc796hq44Bq1XblDAjd8K9TL9HhFRv3NvWE4THicOlJjiayA/0?from=appmsg
+[2026-01-21T03:31:48.045Z] [INFO] 正在上传正文图片: img-1768965869402-1fot3s.jpg
+[2026-01-21T03:31:48.653Z] [SUCCESS] 图片上传成功: http://mmbiz.qpic.cn/mmbiz_jpg/saLP2vrCA0FJCz1v9rJIOsibyWUcL2UQaelexGcI59cDWaaEbu2hu59hXs1v0IibwqxREFQt84x1BialV9vx5po9g/0?from=appmsg
+[2026-01-21T03:31:48.654Z] [INFO] 正在上传正文图片: img-1768965868877-anj41s.jpg
+[2026-01-21T03:31:49.567Z] [SUCCESS] 图片上传成功: http://mmbiz.qpic.cn/mmbiz_jpg/saLP2vrCA0FJCz1v9rJIOsibyWUcL2UQaEoib0NtgB7FnGfv00hZlfXZRib9whbojNiasMwMq5Fokqv7fqDDlLn6PA/0?from=appmsg
+[2026-01-21T03:31:49.585Z] [INFO] 草稿已保存到本地: /Users/xuye/Documents/AI-CODE/obsidian-workspace/publish-article-to-wechat/draft/draft_2026-01-21.html
+[2026-01-21T03:31:49.585Z] [INFO] 正在创建草稿: Claude Code 引爆 AI 热潮：软件行业迎来变革
+[2026-01-21T03:31:51.685Z] [SUCCESS] 草稿创建成功: media_id=69dz72H3jep_p6Ogot1KrSsHxdwyQh34_xQ0l-aDi4eBtOHa-h1YX2g46vsduL58
+[2026-01-21T03:31:51.685Z] [SUCCESS] ✓ 草稿发布成功! media_id: 69dz72H3jep_p6Ogot1KrSsHxdwyQh34_xQ0l-aDi4eBtOHa-h1YX2g46vsduL58
+[2026-01-21T03:31:51.687Z] [SUCCESS] 
+任务完成！草稿已发布到微信公众号

@@ -1,0 +1,28 @@
+[2026-01-22T03:14:38.795Z] [INFO] ========== 开始发布笔记 ==========
+[2026-01-22T03:14:38.798Z] [INFO] 查找日期 2026-01-21 的笔记...
+[2026-01-22T03:14:38.799Z] [INFO] 找到笔记: 2026-01-21-🌎-AI's-top-minds-converge-at-World-Economic-Forum.md
+[2026-01-22T03:14:38.800Z] [INFO] 解析笔记完成: 标题="📰 AI 资讯周报：AI 主导达沃斯论坛，颠覆性变革加速到来", 图片数量=5
+[2026-01-22T03:14:38.800Z] [INFO] 原标题: 📰 AI 资讯周报：AI 主导达沃斯论坛，颠覆性变革加速到来
+[2026-01-22T03:14:38.800Z] [INFO] 清理后标题: AI 资讯周报：AI 主导达沃斯论坛，颠覆性变革加速到来
+[2026-01-22T03:14:38.801Z] [INFO] 准备发布笔记: AI 资讯周报：AI 主导达沃斯论坛，颠覆性变革加速到来
+[2026-01-22T03:14:38.801Z] [INFO] 正在获取微信 access_token...
+[2026-01-22T03:14:39.414Z] [SUCCESS] 成功获取 access_token
+[2026-01-22T03:14:39.415Z] [INFO] 正在上传素材: img-1769051448180-rtdwzr.jpg (image)
+[2026-01-22T03:14:40.820Z] [SUCCESS] 素材上传成功: media_id=69dz72H3jep_p6Ogot1KrdD6KyYIIX-_dg9tn-991gm6dWtrfJcctt-9uHkcJeZi
+[2026-01-22T03:14:40.820Z] [INFO] 封面图上传成功: 69dz72H3jep_p6Ogot1KrdD6KyYIIX-_dg9tn-991gm6dWtrfJcctt-9uHkcJeZi
+[2026-01-22T03:14:40.820Z] [INFO] 正在上传正文图片: img-1769051448180-rtdwzr.jpg
+[2026-01-22T03:14:41.269Z] [SUCCESS] 图片上传成功: http://mmbiz.qpic.cn/mmbiz_jpg/saLP2vrCA0FhiaiaSBJBG1UqQZGgwJLSD94lQ1rCcpuIJTOF6ZCEicBqz8zS5MIXFKmTvW2hxLOj6qqOwL6vETqPw/0?from=appmsg
+[2026-01-22T03:14:41.270Z] [INFO] 正在上传正文图片: img-1769051449536-s540s5.jpg
+[2026-01-22T03:14:42.191Z] [SUCCESS] 图片上传成功: http://mmbiz.qpic.cn/mmbiz_jpg/saLP2vrCA0FhiaiaSBJBG1UqQZGgwJLSD9yCxE47SKoFIzjfCCS5mp5e2nLiczNaGMlvCIYd2dJbcLQN5hq7gozTw/0?from=appmsg
+[2026-01-22T03:14:42.191Z] [INFO] 正在上传正文图片: img-1769051449806-n5osnf.jpg
+[2026-01-22T03:14:42.747Z] [SUCCESS] 图片上传成功: http://mmbiz.qpic.cn/mmbiz_jpg/saLP2vrCA0FhiaiaSBJBG1UqQZGgwJLSD9d8DnecN2zuictnqVxz9icbaiaQaFIMvuFk0qGSBEphYFW67pxw46ib1gGQ/0?from=appmsg
+[2026-01-22T03:14:42.747Z] [INFO] 正在上传正文图片: img-1769051450056-eq9mjq.jpg
+[2026-01-22T03:14:43.180Z] [SUCCESS] 图片上传成功: http://mmbiz.qpic.cn/mmbiz_jpg/saLP2vrCA0FhiaiaSBJBG1UqQZGgwJLSD9MwoLuhUicwBptBibbD51PpOvaJar8Of7WdhZjzX9tE32cFUayEaibzcSg/0?from=appmsg
+[2026-01-22T03:14:43.180Z] [INFO] 正在上传正文图片: img-1769051450356-tkf4i8.jpg
+[2026-01-22T03:14:43.741Z] [SUCCESS] 图片上传成功: http://mmbiz.qpic.cn/mmbiz_jpg/saLP2vrCA0FhiaiaSBJBG1UqQZGgwJLSD90iaV2ZNAaiap6NEx8ibM9yIZlbSrkdTDQTYbaZicziaEgP110v2NlLlx5ug/0?from=appmsg
+[2026-01-22T03:14:43.779Z] [INFO] 草稿已保存到本地: /Users/xuye/Documents/AI-CODE/obsidian-workspace/publish-article-to-wechat/draft/draft_2026-01-22.html
+[2026-01-22T03:14:43.779Z] [INFO] 正在创建草稿: AI 资讯周报：AI 主导达沃斯论坛，颠覆性变革加速到来
+[2026-01-22T03:14:47.184Z] [SUCCESS] 草稿创建成功: media_id=69dz72H3jep_p6Ogot1Krf7lOYHmY15GO2ztvXERzmzPlRiIfbGeK51dkVl8nTSh
+[2026-01-22T03:14:47.184Z] [SUCCESS] ✓ 草稿发布成功! media_id: 69dz72H3jep_p6Ogot1Krf7lOYHmY15GO2ztvXERzmzPlRiIfbGeK51dkVl8nTSh
+[2026-01-22T03:14:47.185Z] [SUCCESS] 
+任务完成！草稿已发布到微信公众号

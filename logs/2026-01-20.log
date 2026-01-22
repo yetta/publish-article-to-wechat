@@ -1,0 +1,94 @@
+[2026-01-20T04:08:24.715Z] [INFO] ========== 开始发布笔记 ==========
+[2026-01-20T04:08:24.719Z] [INFO] 查找日期 2026-01-20 的笔记...
+[2026-01-20T04:08:24.720Z] [INFO] 找到笔记: 2026-01-20-📢-Ads-are-officially-coming-to-ChatGPT.md
+[2026-01-20T04:08:24.721Z] [INFO] 解析笔记完成: 标题="📰 OpenAI 正式在 ChatGPT 中引入广告：AI 行业的新动向", 图片数量=6
+[2026-01-20T04:08:24.722Z] [INFO] 原标题: 📰 OpenAI 正式在 ChatGPT 中引入广告：AI 行业的新动向
+[2026-01-20T04:08:24.722Z] [INFO] 清理后标题: OpenAI 正式在 ChatGPT 中引入广告：AI 行业的新动向
+[2026-01-20T04:08:24.722Z] [INFO] 准备发布笔记: OpenAI 正式在 ChatGPT 中引入广告：AI 行业的新动向
+[2026-01-20T04:08:24.722Z] [INFO] 正在获取微信 access_token...
+[2026-01-20T04:08:25.226Z] [SUCCESS] 成功获取 access_token
+[2026-01-20T04:08:25.226Z] [INFO] 正在上传素材: img-1768881964503-iulqfh.jpg (image)
+[2026-01-20T04:08:27.417Z] [SUCCESS] 素材上传成功: media_id=69dz72H3jep_p6Ogot1KrUWusHk4tm6WIQYCk0t9yv3KV5JcM72HtTU0GCLS-c_U
+[2026-01-20T04:08:27.418Z] [INFO] 封面图上传成功: 69dz72H3jep_p6Ogot1KrUWusHk4tm6WIQYCk0t9yv3KV5JcM72HtTU0GCLS-c_U
+[2026-01-20T04:08:27.419Z] [INFO] 正在上传正文图片: img-1768881964503-iulqfh.jpg
+[2026-01-20T04:08:28.031Z] [SUCCESS] 图片上传成功: http://mmbiz.qpic.cn/mmbiz_jpg/saLP2vrCA0EiaSdGaoXFkHCsniciaSrNjJvZvBCibqe8MJOpDLFgaTCPNm46EKnW5DILKhEMWmaEApKvar5zYyLOvw/0?from=appmsg
+[2026-01-20T04:08:28.031Z] [INFO] 正在上传正文图片: img-1768881964879-yukeuj.jpg
+[2026-01-20T04:08:28.555Z] [SUCCESS] 图片上传成功: http://mmbiz.qpic.cn/mmbiz_jpg/saLP2vrCA0EiaSdGaoXFkHCsniciaSrNjJvljeaw16k8R9Vj7qnKQdPVSqqOEcFZgmrI8MZTibnj54Hh8EuZEIweoQ/0?from=appmsg
+[2026-01-20T04:08:28.555Z] [INFO] 正在上传正文图片: img-1768881965328-dmsao3.jpg
+[2026-01-20T04:08:29.180Z] [SUCCESS] 图片上传成功: http://mmbiz.qpic.cn/mmbiz_jpg/saLP2vrCA0EiaSdGaoXFkHCsniciaSrNjJvdicgg4MDECoX1FrnsEplmh1DNAT8CloU0f0F4fY30gQtfyFc3Jz5N2Q/0?from=appmsg
+[2026-01-20T04:08:29.180Z] [INFO] 正在上传正文图片: img-1768881965839-030qcr.png
+[2026-01-20T04:08:30.018Z] [SUCCESS] 图片上传成功: http://mmbiz.qpic.cn/mmbiz_png/saLP2vrCA0EiaSdGaoXFkHCsniciaSrNjJvKsX1o3D5Lq793HoE03u9xHgicHF9HmSJ7Bd3v9zhTtJUibvDnialIkHAw/0?from=appmsg
+[2026-01-20T04:08:30.018Z] [INFO] 正在上传正文图片: img-1768881966149-44l2g.png
+[2026-01-20T04:08:30.948Z] [SUCCESS] 图片上传成功: http://mmbiz.qpic.cn/mmbiz_png/saLP2vrCA0EiaSdGaoXFkHCsniciaSrNjJvXiaCicSFhJrKwl0HGLfsXDItn6zKXYsW6zFqy9iahhwcGtxKnhaKyE49A/0?from=appmsg
+[2026-01-20T04:08:30.949Z] [INFO] 正在上传正文图片: img-1768881966506-207jc.jpg
+[2026-01-20T04:08:31.541Z] [SUCCESS] 图片上传成功: http://mmbiz.qpic.cn/mmbiz_jpg/saLP2vrCA0EiaSdGaoXFkHCsniciaSrNjJvoricl0D1KCIoI2rXemB25MjIDIibiacYHcaDb959gbib1skltJ4ib3IbkcA/0?from=appmsg
+[2026-01-20T04:08:31.559Z] [INFO] 草稿已保存到本地: /Users/xuye/Documents/AI-CODE/obsidian-workspace/publish-article-to-wechat/draft/draft_2026-01-20.html
+[2026-01-20T04:08:31.559Z] [INFO] 正在创建草稿: OpenAI 正式在 ChatGPT 中引入广告：AI 行业的新动向
+[2026-01-20T04:08:34.122Z] [SUCCESS] 草稿创建成功: media_id=69dz72H3jep_p6Ogot1KrcWCUOOKwt0Dbig9f5TphCz_QY5FOHSfqm_fM4C7FzzA
+[2026-01-20T04:08:34.123Z] [SUCCESS] ✓ 草稿发布成功! media_id: 69dz72H3jep_p6Ogot1KrcWCUOOKwt0Dbig9f5TphCz_QY5FOHSfqm_fM4C7FzzA
+[2026-01-20T04:08:34.123Z] [SUCCESS] 
+任务完成！草稿已发布到微信公众号
+[2026-01-20T04:10:38.887Z] [INFO] ========== 开始发布笔记 ==========
+[2026-01-20T04:10:38.906Z] [INFO] 查找日期 2026-01-20 的笔记...
+[2026-01-20T04:10:38.907Z] [INFO] 找到笔记: 2026-01-20-📢-Ads-are-officially-coming-to-ChatGPT.md
+[2026-01-20T04:10:38.909Z] [INFO] 解析笔记完成: 标题="📰 OpenAI 正式在 ChatGPT 中引入广告：AI 行业的新动向", 图片数量=6
+[2026-01-20T04:10:38.910Z] [INFO] 原标题: 📰 OpenAI 正式在 ChatGPT 中引入广告：AI 行业的新动向
+[2026-01-20T04:10:38.910Z] [INFO] 清理后标题: OpenAI 正式在 ChatGPT 中引入广告：AI 行业的新动向
+[2026-01-20T04:10:38.910Z] [INFO] 准备发布笔记: OpenAI 正式在 ChatGPT 中引入广告：AI 行业的新动向
+[2026-01-20T04:10:38.910Z] [INFO] 正在获取微信 access_token...
+[2026-01-20T04:10:39.326Z] [SUCCESS] 成功获取 access_token
+[2026-01-20T04:10:39.326Z] [INFO] 正在上传素材: img-1768881964503-iulqfh.jpg (image)
+[2026-01-20T04:10:40.454Z] [SUCCESS] 素材上传成功: media_id=69dz72H3jep_p6Ogot1KrQZSP4cYxuf3463uq83FlCkzQtH5OZpNtnaBmWoxQBl5
+[2026-01-20T04:10:40.455Z] [INFO] 封面图上传成功: 69dz72H3jep_p6Ogot1KrQZSP4cYxuf3463uq83FlCkzQtH5OZpNtnaBmWoxQBl5
+[2026-01-20T04:10:40.455Z] [INFO] 正在上传正文图片: img-1768881964503-iulqfh.jpg
+[2026-01-20T04:10:41.049Z] [SUCCESS] 图片上传成功: http://mmbiz.qpic.cn/mmbiz_jpg/saLP2vrCA0EiaSdGaoXFkHCsniciaSrNjJvZvBCibqe8MJOpDLFgaTCPNm46EKnW5DILKhEMWmaEApKvar5zYyLOvw/0?from=appmsg
+[2026-01-20T04:10:41.049Z] [INFO] 正在上传正文图片: img-1768881964879-yukeuj.jpg
+[2026-01-20T04:10:41.536Z] [SUCCESS] 图片上传成功: http://mmbiz.qpic.cn/mmbiz_jpg/saLP2vrCA0EiaSdGaoXFkHCsniciaSrNjJvljeaw16k8R9Vj7qnKQdPVSqqOEcFZgmrI8MZTibnj54Hh8EuZEIweoQ/0?from=appmsg
+[2026-01-20T04:10:41.537Z] [INFO] 正在上传正文图片: img-1768881965328-dmsao3.jpg
+[2026-01-20T04:10:42.222Z] [SUCCESS] 图片上传成功: http://mmbiz.qpic.cn/mmbiz_jpg/saLP2vrCA0EiaSdGaoXFkHCsniciaSrNjJvdicgg4MDECoX1FrnsEplmh1DNAT8CloU0f0F4fY30gQtfyFc3Jz5N2Q/0?from=appmsg
+[2026-01-20T04:10:42.223Z] [INFO] 正在上传正文图片: img-1768881965839-030qcr.png
+[2026-01-20T04:10:43.171Z] [SUCCESS] 图片上传成功: http://mmbiz.qpic.cn/mmbiz_png/saLP2vrCA0EiaSdGaoXFkHCsniciaSrNjJvKsX1o3D5Lq793HoE03u9xHgicHF9HmSJ7Bd3v9zhTtJUibvDnialIkHAw/0?from=appmsg
+[2026-01-20T04:10:43.172Z] [INFO] 正在上传正文图片: img-1768881966149-44l2g.png
+[2026-01-20T04:10:44.043Z] [SUCCESS] 图片上传成功: http://mmbiz.qpic.cn/mmbiz_png/saLP2vrCA0EiaSdGaoXFkHCsniciaSrNjJvXiaCicSFhJrKwl0HGLfsXDItn6zKXYsW6zFqy9iahhwcGtxKnhaKyE49A/0?from=appmsg
+[2026-01-20T04:10:44.043Z] [INFO] 正在上传正文图片: img-1768881966506-207jc.jpg
+[2026-01-20T04:10:44.690Z] [SUCCESS] 图片上传成功: http://mmbiz.qpic.cn/mmbiz_jpg/saLP2vrCA0EiaSdGaoXFkHCsniciaSrNjJvoricl0D1KCIoI2rXemB25MjIDIibiacYHcaDb959gbib1skltJ4ib3IbkcA/0?from=appmsg
+[2026-01-20T04:10:44.708Z] [INFO] 草稿已保存到本地: /Users/xuye/Documents/AI-CODE/obsidian-workspace/publish-article-to-wechat/draft/draft_2026-01-20.html
+[2026-01-20T04:10:44.708Z] [INFO] 正在创建草稿: OpenAI 正式在 ChatGPT 中引入广告：AI 行业的新动向
+[2026-01-20T04:10:46.842Z] [SUCCESS] 草稿创建成功: media_id=69dz72H3jep_p6Ogot1KrcOoR3Y2rt0kmvuCL5f6xf3lBUOiGLF3PQqgbyBILie1
+[2026-01-20T04:10:46.842Z] [SUCCESS] ✓ 草稿发布成功! media_id: 69dz72H3jep_p6Ogot1KrcOoR3Y2rt0kmvuCL5f6xf3lBUOiGLF3PQqgbyBILie1
+[2026-01-20T04:10:46.843Z] [SUCCESS] 
+任务完成！草稿已发布到微信公众号
+[2026-01-20T04:14:35.571Z] [INFO] 查找日期 2026-01-20 的笔记...
+[2026-01-20T04:14:35.582Z] [INFO] 找到笔记: 2026-01-20-📢-Ads-are-officially-coming-to-ChatGPT.md
+[2026-01-20T04:14:35.584Z] [INFO] 解析笔记完成: 标题="📰 OpenAI 正式在 ChatGPT 中引入广告：AI 行业的新动向", 图片数量=6
+[2026-01-20T04:14:35.605Z] [INFO] Debug draft saved to: /Users/xuye/Documents/AI-CODE/obsidian-workspace/publish-article-to-wechat/draft/debug_draft.html
+[2026-01-20T04:15:56.016Z] [INFO] ========== 开始发布笔记 ==========
+[2026-01-20T04:15:56.020Z] [INFO] 查找日期 2026-01-20 的笔记...
+[2026-01-20T04:15:56.020Z] [INFO] 找到笔记: 2026-01-20-📢-Ads-are-officially-coming-to-ChatGPT.md
+[2026-01-20T04:15:56.022Z] [INFO] 解析笔记完成: 标题="📰 OpenAI 正式在 ChatGPT 中引入广告：AI 行业的新动向", 图片数量=6
+[2026-01-20T04:15:56.022Z] [INFO] 原标题: 📰 OpenAI 正式在 ChatGPT 中引入广告：AI 行业的新动向
+[2026-01-20T04:15:56.022Z] [INFO] 清理后标题: OpenAI 正式在 ChatGPT 中引入广告：AI 行业的新动向
+[2026-01-20T04:15:56.022Z] [INFO] 准备发布笔记: OpenAI 正式在 ChatGPT 中引入广告：AI 行业的新动向
+[2026-01-20T04:15:56.023Z] [INFO] 正在获取微信 access_token...
+[2026-01-20T04:15:56.469Z] [SUCCESS] 成功获取 access_token
+[2026-01-20T04:15:56.469Z] [INFO] 正在上传素材: img-1768881964503-iulqfh.jpg (image)
+[2026-01-20T04:15:57.695Z] [SUCCESS] 素材上传成功: media_id=69dz72H3jep_p6Ogot1KrWeTnDl8zAPCGlYT1_mH1fWyv4xmC7lsiCem5SV4rJYr
+[2026-01-20T04:15:57.695Z] [INFO] 封面图上传成功: 69dz72H3jep_p6Ogot1KrWeTnDl8zAPCGlYT1_mH1fWyv4xmC7lsiCem5SV4rJYr
+[2026-01-20T04:15:57.696Z] [INFO] 正在上传正文图片: img-1768881964503-iulqfh.jpg
+[2026-01-20T04:15:58.269Z] [SUCCESS] 图片上传成功: http://mmbiz.qpic.cn/mmbiz_jpg/saLP2vrCA0EiaSdGaoXFkHCsniciaSrNjJvZvBCibqe8MJOpDLFgaTCPNm46EKnW5DILKhEMWmaEApKvar5zYyLOvw/0?from=appmsg
+[2026-01-20T04:15:58.269Z] [INFO] 正在上传正文图片: img-1768881964879-yukeuj.jpg
+[2026-01-20T04:15:58.803Z] [SUCCESS] 图片上传成功: http://mmbiz.qpic.cn/mmbiz_jpg/saLP2vrCA0EiaSdGaoXFkHCsniciaSrNjJvljeaw16k8R9Vj7qnKQdPVSqqOEcFZgmrI8MZTibnj54Hh8EuZEIweoQ/0?from=appmsg
+[2026-01-20T04:15:58.804Z] [INFO] 正在上传正文图片: img-1768881965328-dmsao3.jpg
+[2026-01-20T04:15:59.451Z] [SUCCESS] 图片上传成功: http://mmbiz.qpic.cn/mmbiz_jpg/saLP2vrCA0EiaSdGaoXFkHCsniciaSrNjJvdicgg4MDECoX1FrnsEplmh1DNAT8CloU0f0F4fY30gQtfyFc3Jz5N2Q/0?from=appmsg
+[2026-01-20T04:15:59.452Z] [INFO] 正在上传正文图片: img-1768881965839-030qcr.png
+[2026-01-20T04:16:00.436Z] [SUCCESS] 图片上传成功: http://mmbiz.qpic.cn/mmbiz_png/saLP2vrCA0EiaSdGaoXFkHCsniciaSrNjJvKsX1o3D5Lq793HoE03u9xHgicHF9HmSJ7Bd3v9zhTtJUibvDnialIkHAw/0?from=appmsg
+[2026-01-20T04:16:00.436Z] [INFO] 正在上传正文图片: img-1768881966149-44l2g.png
+[2026-01-20T04:16:01.585Z] [SUCCESS] 图片上传成功: http://mmbiz.qpic.cn/mmbiz_png/saLP2vrCA0EiaSdGaoXFkHCsniciaSrNjJvXiaCicSFhJrKwl0HGLfsXDItn6zKXYsW6zFqy9iahhwcGtxKnhaKyE49A/0?from=appmsg
+[2026-01-20T04:16:01.585Z] [INFO] 正在上传正文图片: img-1768881966506-207jc.jpg
+[2026-01-20T04:16:02.183Z] [SUCCESS] 图片上传成功: http://mmbiz.qpic.cn/mmbiz_jpg/saLP2vrCA0EiaSdGaoXFkHCsniciaSrNjJvoricl0D1KCIoI2rXemB25MjIDIibiacYHcaDb959gbib1skltJ4ib3IbkcA/0?from=appmsg
+[2026-01-20T04:16:02.200Z] [INFO] 草稿已保存到本地: /Users/xuye/Documents/AI-CODE/obsidian-workspace/publish-article-to-wechat/draft/draft_2026-01-20.html
+[2026-01-20T04:16:02.201Z] [INFO] 正在创建草稿: OpenAI 正式在 ChatGPT 中引入广告：AI 行业的新动向
+[2026-01-20T04:16:04.696Z] [SUCCESS] 草稿创建成功: media_id=69dz72H3jep_p6Ogot1KrYtI9j7utWhNwc3OSw3JiraSSiAxHozbHnxM1J7B-ZCu
+[2026-01-20T04:16:04.697Z] [SUCCESS] ✓ 草稿发布成功! media_id: 69dz72H3jep_p6Ogot1KrYtI9j7utWhNwc3OSw3JiraSSiAxHozbHnxM1J7B-ZCu
+[2026-01-20T04:16:04.697Z] [SUCCESS] 
+任务完成！草稿已发布到微信公众号

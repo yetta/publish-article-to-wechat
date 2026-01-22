@@ -1,0 +1,38 @@
+[2026-01-19T12:42:51.543Z] [INFO] ========== 开始发布笔记 ==========
+[2026-01-19T12:42:51.548Z] [INFO] 查找日期 2026-01-19 的笔记...
+[2026-01-19T12:42:51.549Z] [INFO] 未找到日期 2026-01-19 的笔记
+[2026-01-19T12:42:51.550Z] [WARN] 未找到今日笔记，跳过发布
+[2026-01-19T12:42:51.550Z] [WARN] 
+任务结束: no_note
+[2026-01-19T12:43:48.909Z] [INFO] 找到笔记: 2026-01-17-✌️-Murati's-co-founders-return-to-OpenAI-7.md
+[2026-01-19T12:43:48.958Z] [INFO] 解析笔记完成: 标题="📰 OpenAI 迎来重要人才回流：Murati 的联合创始人重返公司", 图片数量=6
+[2026-01-19T12:43:48.977Z] [SUCCESS] 测试草稿已保存: /Users/xuye/Documents/AI-CODE/obsidian-workspace/publish-article-to-wechat/draft/draft_test.html
+[2026-01-19T12:46:46.834Z] [INFO] ========== 开始发布笔记 ==========
+[2026-01-19T12:46:46.856Z] [INFO] 查找日期 2026-01-19 的笔记...
+[2026-01-19T12:46:46.857Z] [INFO] 找到笔记: 2026-01-19-🤝-Wikipedia-inks-deals-with-Amazon,-Meta-3.md
+[2026-01-19T12:46:46.858Z] [INFO] 解析笔记完成: 标题="📰 维基百科与亚马逊、Meta 达成合作：互联网免费资源走向付费时代", 图片数量=4
+[2026-01-19T12:46:46.858Z] [INFO] 原标题: 📰 维基百科与亚马逊、Meta 达成合作：互联网免费资源走向付费时代
+[2026-01-19T12:46:46.858Z] [INFO] 清理后标题: 维基百科与亚马逊、Meta 达成合作：互联网免费资源走向付费时代
+[2026-01-19T12:46:46.859Z] [INFO] 准备发布笔记: 维基百科与亚马逊、Meta 达成合作：互联网免费资源走向付费时代
+[2026-01-19T12:46:46.859Z] [INFO] 正在获取微信 access_token...
+[2026-01-19T12:46:47.418Z] [SUCCESS] 成功获取 access_token
+[2026-01-19T12:46:47.419Z] [INFO] 正在上传素材: img-1768634170625-43xulh.jpg (image)
+[2026-01-19T12:46:48.552Z] [SUCCESS] 素材上传成功: media_id=69dz72H3jep_p6Ogot1KrSrzsM36VTy6PCrp93imovv80BnSu0k8CVAKxZdOIM-x
+[2026-01-19T12:46:48.553Z] [INFO] 封面图上传成功: 69dz72H3jep_p6Ogot1KrSrzsM36VTy6PCrp93imovv80BnSu0k8CVAKxZdOIM-x
+[2026-01-19T12:46:48.553Z] [INFO] 正在上传正文图片: img-1768634170625-43xulh.jpg
+[2026-01-19T12:46:49.199Z] [SUCCESS] 图片上传成功: http://mmbiz.qpic.cn/mmbiz_jpg/saLP2vrCA0FzR2ugoVrXW11xzvt45QE2Spnp1KSasZTvtPlHJXPZiaTxtCK2Hy8hELUqviaYhQP6nhvH6JZcQI2A/0?from=appmsg
+[2026-01-19T12:46:49.199Z] [INFO] 正在上传正文图片: img-1768634171800-tso1f57r.jpg
+[2026-01-19T12:46:49.801Z] [SUCCESS] 图片上传成功: http://mmbiz.qpic.cn/mmbiz_jpg/saLP2vrCA0FzR2ugoVrXW11xzvt45QE2Rnib5J4FZeibNAmCZicYTrwlMXvhicHQZkia5hHpFEarPJ0Mm439SvdaHHQ/0?from=appmsg
+[2026-01-19T12:46:49.801Z] [INFO] 正在上传正文图片: img-1768634172399-noq1fi.jpg
+[2026-01-19T12:46:50.241Z] [SUCCESS] 图片上传成功: http://mmbiz.qpic.cn/mmbiz_jpg/saLP2vrCA0FzR2ugoVrXW11xzvt45QE28PwZe3FibN4LIdIfsodhpyn9RePMOXFv5ibf0FJx7VOA06cwl5TsXWFw/0?from=appmsg
+[2026-01-19T12:46:50.242Z] [INFO] 正在上传正文图片: img-1768634172908-vfyr1r.jpg
+[2026-01-19T12:46:50.851Z] [SUCCESS] 图片上传成功: http://mmbiz.qpic.cn/mmbiz_jpg/saLP2vrCA0FzR2ugoVrXW11xzvt45QE26Mb0h0a2G1moDMX1aTrMKTqIpyqPQgwe98XpaC9jYA8CwJwhUCMVYQ/0?from=appmsg
+[2026-01-19T12:46:50.872Z] [INFO] 草稿已保存到本地: /Users/xuye/Documents/AI-CODE/obsidian-workspace/publish-article-to-wechat/draft/draft_2026-01-19.html
+[2026-01-19T12:46:50.872Z] [INFO] 正在创建草稿: 维基百科与亚马逊、Meta 达成合作：互联网免费资源走向付费时代
+[2026-01-19T12:46:53.570Z] [SUCCESS] 草稿创建成功: media_id=69dz72H3jep_p6Ogot1Krc0K518nK5eSoX-drCf7VSt-N69vb6k_ySLr3QyauRWn
+[2026-01-19T12:46:53.571Z] [SUCCESS] ✓ 草稿发布成功! media_id: 69dz72H3jep_p6Ogot1Krc0K518nK5eSoX-drCf7VSt-N69vb6k_ySLr3QyauRWn
+[2026-01-19T12:46:53.597Z] [SUCCESS] 
+任务完成！草稿已发布到微信公众号
+[2026-01-19T13:18:35.012Z] [INFO] 找到笔记: 2026-01-17-✌️-Murati's-co-founders-return-to-OpenAI-7.md
+[2026-01-19T13:18:35.056Z] [INFO] 解析笔记完成: 标题="📰 OpenAI 迎来重要人才回流：Murati 的联合创始人重返公司", 图片数量=6
+[2026-01-19T13:18:35.074Z] [SUCCESS] 测试草稿已保存: /Users/xuye/Documents/AI-CODE/obsidian-workspace/publish-article-to-wechat/draft/draft_test.html
