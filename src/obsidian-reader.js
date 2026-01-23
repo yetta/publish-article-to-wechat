@@ -77,11 +77,45 @@ class ObsidianReader {
     }
 
     /**
+     * 查找包含指定日期的所有笔记文件
+     * @param {string} dateStr - 日期字符串,格式 YYYY-MM-DD
+     * @returns {string[]} - 笔记文件路径数组
+     */
+    findAllNotesByDate(dateStr) {
+        if (!fs.existsSync(this.notesPath)) {
+            logger.error(`笔记目录不存在: ${this.notesPath}`);
+            return [];
+        }
+
+        const files = fs.readdirSync(this.notesPath);
+        const mdFiles = files.filter(f => f.endsWith('.md') && f.includes(dateStr));
+
+        if (mdFiles.length === 0) {
+            logger.info(`未找到日期 ${dateStr} 的笔记`);
+            return [];
+        }
+
+        logger.info(`找到 ${mdFiles.length} 条日期 ${dateStr} 的笔记`);
+        return mdFiles.map(f => path.join(this.notesPath, f));
+    }
+
+    /**
+     * 查找昨日所有笔记
+     * @returns {string[]}
+     */
+    findAllYesterdayNotes() {
+        const yesterdayStr = this.getYesterdayDateString();
+        logger.info(`查找日期 ${yesterdayStr} 的所有笔记...`);
+        return this.findAllNotesByDate(yesterdayStr);
+    }
+
+    /**
      * 解析笔记内容
      * @param {string} filePath - 笔记文件路径
+     * @param {boolean} extractKeyPointsOnly - 是否只提取摘要和核心要点
      * @returns {object} - { title, content, images, digest }
      */
-    parseNote(filePath) {
+    parseNote(filePath, extractKeyPointsOnly = false) {
         const rawContent = fs.readFileSync(filePath, 'utf-8');
         const lines = rawContent.split('\n');
 
@@ -103,7 +137,12 @@ class ObsidianReader {
         }
 
         // 提取内容 (标题之后的所有内容)
-        const content = lines.slice(contentStartIndex).join('\n').trim();
+        let content = lines.slice(contentStartIndex).join('\n').trim();
+
+        // 如果只提取核心要点
+        if (extractKeyPointsOnly) {
+            content = this.extractKeyContent(content);
+        }
 
         // 提取图片引用
         const images = this.extractImages(rawContent, filePath);
@@ -218,6 +257,105 @@ class ObsidianReader {
             return images[0].localPath;
         }
         return null;
+    }
+
+    /**
+     * 提取核心内容(只保留摘要和核心要点)
+     * @param {string} content - 完整内容
+     * @returns {string} - 过滤后的内容
+     */
+    extractKeyContent(content) {
+        const lines = content.split('\n');
+        const result = [];
+        let inKeySection = false;
+        let skipSection = false;
+
+        for (let i = 0; i < lines.length; i++) {
+            const line = lines[i];
+            const trimmed = line.trim();
+
+            // 检测章节标题
+            if (trimmed.startsWith('##')) {
+                const sectionTitle = trimmed.toLowerCase();
+
+                // 需要保留的章节
+                if (sectionTitle.includes('摘要') ||
+                    sectionTitle.includes('summary') ||
+                    sectionTitle.includes('要点') ||
+                    sectionTitle.includes('核心') ||
+                    sectionTitle.includes('key')) {
+                    inKeySection = true;
+                    skipSection = false;
+                    result.push(line);
+                }
+                // 需要跳过的章节
+                else if (sectionTitle.includes('链接') ||
+                    sectionTitle.includes('link') ||
+                    sectionTitle.includes('工具') ||
+                    sectionTitle.includes('tool') ||
+                    sectionTitle.includes('产品') ||
+                    sectionTitle.includes('product') ||
+                    sectionTitle.includes('资源') ||
+                    sectionTitle.includes('resource')) {
+                    inKeySection = false;
+                    skipSection = true;
+                }
+                // 其他章节
+                else {
+                    inKeySection = false;
+                    skipSection = false;
+                    result.push(line);
+                }
+            }
+            // 如果在需要保留的章节中,或者不在跳过的章节中
+            else if (inKeySection || !skipSection) {
+                result.push(line);
+            }
+        }
+
+        return result.join('\n').trim();
+    }
+
+    /**
+     * 合并多条笔记
+     * @param {string[]} notePaths - 笔记文件路径数组
+     * @param {boolean} extractKeyPointsOnly - 是否只提取核心要点
+     * @returns {object} - 合并后的笔记对象
+     */
+    mergeNotes(notePaths, extractKeyPointsOnly = false) {
+        if (notePaths.length === 0) {
+            return null;
+        }
+
+        if (notePaths.length === 1) {
+            return this.parseNote(notePaths[0], extractKeyPointsOnly);
+        }
+
+        logger.info(`合并 ${notePaths.length} 条笔记...`);
+
+        const notes = notePaths.map(path => this.parseNote(path, extractKeyPointsOnly));
+
+        // 合并标题
+        const mergedTitle = `AI 资讯汇总 ${this.getYesterdayDateString()}`;
+
+        // 合并内容
+        const mergedContent = notes.map((note, index) => {
+            return `## ${note.title}\n\n${note.content}`;
+        }).join('\n\n---\n\n');
+
+        // 合并图片
+        const mergedImages = notes.flatMap(n => n.images);
+
+        // 合并摘要
+        const mergedDigest = notes.map(n => n.digest).join(' ');
+
+        return {
+            title: mergedTitle,
+            content: mergedContent,
+            images: mergedImages,
+            digest: mergedDigest.substring(0, 200),
+            rawContent: mergedContent
+        };
     }
 }
 

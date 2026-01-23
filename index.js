@@ -88,17 +88,19 @@ async function publishTodayNote() {
         const converter = new MarkdownConverter();
         const wechatApi = new WechatAPI(appId, appSecret);
 
-        // 查找昨日笔记
-        const notePath = reader.findYesterdayNote();
-        if (!notePath) {
-            logger.warn('未找到昨日笔记，跳过发布');
+        // 查找昨日所有笔记
+        const notePaths = reader.findAllYesterdayNotes();
+        if (notePaths.length === 0) {
+            logger.warn('未找到昨日笔记,跳过发布');
             return { success: false, reason: 'no_note' };
         }
 
-        // 解析笔记
-        const note = reader.parseNote(notePath);
+        logger.info(`找到 ${notePaths.length} 条昨日笔记`);
 
-        // 清理标题，移除微信公众号不支持的特殊符号
+        // 解析并合并笔记(只提取核心要点)
+        const note = reader.mergeNotes(notePaths, true);
+
+        // 清理标题,移除微信公众号不支持的特殊符号
         const cleanedTitle = converter.cleanTitle(note.title);
         logger.info(`原标题: ${note.title}`);
         logger.info(`清理后标题: ${cleanedTitle}`);
