@@ -8,7 +8,7 @@ node_modules/
 logs/
 
 # Draft backups (optional, uncomment if you don't want to track)
-# draft/
+draft/
 
 # OS files
 .DS_Store

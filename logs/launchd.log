@@ -32,3 +32,55 @@
 [32m[2026-01-22T03:14:47.185Z] [SUCCESS] 
 任务完成！草稿已发布到微信公众号[0m
 [2026-01-22 11:14:47] Task completed successfully.
+[2026-01-27 10:19:15] Starting scheduled publish task...
+
+> publish-article-to-wechat@1.0.0 start
+> node index.js
+
+[2026-01-27T10:19:16.558+08:00] [INFO] ========== 开始发布笔记 ==========
+[2026-01-27T10:19:16.561+08:00] [INFO] 查找日期 2026-01-26 的所有笔记...
+[2026-01-27T10:19:16.562+08:00] [INFO] 找到 3 条日期 2026-01-26 的笔记
+[2026-01-27T10:19:16.562+08:00] [INFO] 找到 3 条昨日笔记
+[2026-01-27T10:19:16.562+08:00] [INFO] 合并 3 条笔记...
+[2026-01-27T10:19:16.564+08:00] [INFO] 解析笔记完成: 标题="📰 Anthropic 扩展 Claude for Excel 访问：AI 办公助手新纪元", 图片数量=4
+[2026-01-27T10:19:16.597+08:00] [INFO] 解析笔记完成: 标题="📰 Anthropic 扩展 Claude for Excel 访问：AI 办公助手新纪元", 图片数量=4
+[2026-01-27T10:19:16.670+08:00] [INFO] 解析笔记完成: 标题="📰 机器人领域的最新发展：马斯克与特斯拉引领未来", 图片数量=4
+[2026-01-27T10:19:16.672+08:00] [INFO] 原标题: AI 资讯汇总 2026-01-26
+[2026-01-27T10:19:16.672+08:00] [INFO] 清理后标题: AI 资讯汇总 2026-01-26
+[2026-01-27T10:19:16.673+08:00] [INFO] 准备发布笔记: AI 资讯汇总 2026-01-26
+[2026-01-27T10:19:16.673+08:00] [INFO] 正在获取微信 access_token...
+[32m[2026-01-27T10:19:17.168+08:00] [SUCCESS] 成功获取 access_token[0m
+[2026-01-27T10:19:17.168+08:00] [INFO] 正在上传素材: img-1769478086789-j1xl6t.jpg (image)
+[32m[2026-01-27T10:19:18.510+08:00] [SUCCESS] 素材上传成功: media_id=69dz72H3jep_p6Ogot1KrZoHV4xA959bXpXYXUj2E48k7O5wBs2eo7V9XuQ8T0GI[0m
+[2026-01-27T10:19:18.511+08:00] [INFO] 封面图上传成功: 69dz72H3jep_p6Ogot1KrZoHV4xA959bXpXYXUj2E48k7O5wBs2eo7V9XuQ8T0GI
+[2026-01-27T10:19:18.512+08:00] [INFO] 正在上传正文图片: img-1769478086789-j1xl6t.jpg
+[32m[2026-01-27T10:19:19.196+08:00] [SUCCESS] 图片上传成功: http://mmbiz.qpic.cn/mmbiz_jpg/saLP2vrCA0HSbOpFNlUZXAlWVAPGAWSe5Ukt2rhvYNv5AGPH1rGY8up2Ufwr1R9vh6YDysndu4DqXcudiaGVoKg/0?from=appmsg[0m
+[2026-01-27T10:19:19.197+08:00] [INFO] 正在上传正文图片: img-1769478087965-0h7fgc.jpg
+[32m[2026-01-27T10:19:19.869+08:00] [SUCCESS] 图片上传成功: http://mmbiz.qpic.cn/mmbiz_jpg/saLP2vrCA0HSbOpFNlUZXAlWVAPGAWSeovA0iaChOct1FaU9FskLjwDsbibnH9nvbYrRI03oa4SINGjRdcdgsWKQ/0?from=appmsg[0m
+[2026-01-27T10:19:19.869+08:00] [INFO] 正在上传正文图片: img-1769478089046-1iesm8.jpg
+[32m[2026-01-27T10:19:20.428+08:00] [SUCCESS] 图片上传成功: http://mmbiz.qpic.cn/mmbiz_jpg/saLP2vrCA0HSbOpFNlUZXAlWVAPGAWSefZwriaehM8QVzsRocrQByK6q6LYvxbpUTBOxRFzFByZ8roTQywnaekQ/0?from=appmsg[0m
+[2026-01-27T10:19:20.428+08:00] [INFO] 正在上传正文图片: img-1769478088449-2cgucq.jpg
+[32m[2026-01-27T10:19:21.001+08:00] [SUCCESS] 图片上传成功: http://mmbiz.qpic.cn/mmbiz_jpg/saLP2vrCA0HSbOpFNlUZXAlWVAPGAWSe4o8UC6fSuLAkicR3YjBnukIKnhqLicT0ncGKibVdjAv01bGrPbQDiasEug/0?from=appmsg[0m
+[2026-01-27T10:19:21.001+08:00] [INFO] 正在上传正文图片: img-1769464969939-q56im.jpg
+[32m[2026-01-27T10:19:21.450+08:00] [SUCCESS] 图片上传成功: http://mmbiz.qpic.cn/mmbiz_jpg/saLP2vrCA0HSbOpFNlUZXAlWVAPGAWSe5Ukt2rhvYNv5AGPH1rGY8up2Ufwr1R9vh6YDysndu4DqXcudiaGVoKg/0?from=appmsg[0m
+[2026-01-27T10:19:21.450+08:00] [INFO] 正在上传正文图片: img-1769464971064-hdex2y.jpg
+[32m[2026-01-27T10:19:21.951+08:00] [SUCCESS] 图片上传成功: http://mmbiz.qpic.cn/mmbiz_jpg/saLP2vrCA0HSbOpFNlUZXAlWVAPGAWSeovA0iaChOct1FaU9FskLjwDsbibnH9nvbYrRI03oa4SINGjRdcdgsWKQ/0?from=appmsg[0m
+[2026-01-27T10:19:21.951+08:00] [INFO] 正在上传正文图片: img-1769464972285-uorzyi.jpg
+[32m[2026-01-27T10:19:22.334+08:00] [SUCCESS] 图片上传成功: http://mmbiz.qpic.cn/mmbiz_jpg/saLP2vrCA0HSbOpFNlUZXAlWVAPGAWSefZwriaehM8QVzsRocrQByK6q6LYvxbpUTBOxRFzFByZ8roTQywnaekQ/0?from=appmsg[0m
+[2026-01-27T10:19:22.335+08:00] [INFO] 正在上传正文图片: img-1769464971527-cbgj0k.jpg
+[32m[2026-01-27T10:19:22.709+08:00] [SUCCESS] 图片上传成功: http://mmbiz.qpic.cn/mmbiz_jpg/saLP2vrCA0HSbOpFNlUZXAlWVAPGAWSe4o8UC6fSuLAkicR3YjBnukIKnhqLicT0ncGKibVdjAv01bGrPbQDiasEug/0?from=appmsg[0m
+[2026-01-27T10:19:22.709+08:00] [INFO] 正在上传正文图片: img-1769464920139-fy7ngi.jpg
+[32m[2026-01-27T10:19:23.280+08:00] [SUCCESS] 图片上传成功: http://mmbiz.qpic.cn/mmbiz_jpg/saLP2vrCA0HSbOpFNlUZXAlWVAPGAWSePrw6uH0oiasMf5EDwRedn7mH423icCGMRLQRRrkCmJFWzyuRPHIE1qog/0?from=appmsg[0m
+[2026-01-27T10:19:23.281+08:00] [INFO] 正在上传正文图片: img-1769464921166-0b479n.jpg
+[32m[2026-01-27T10:19:23.644+08:00] [SUCCESS] 图片上传成功: http://mmbiz.qpic.cn/mmbiz_jpg/saLP2vrCA0HSbOpFNlUZXAlWVAPGAWSeoURw9PjEibWvTrrvyeWCk3V9FXqTy1gKria99gkVaHHoZhUrJ2hhAKiaw/0?from=appmsg[0m
+[2026-01-27T10:19:23.644+08:00] [INFO] 正在上传正文图片: img-1769464922299-7x5u4j.jpg
+[32m[2026-01-27T10:19:24.049+08:00] [SUCCESS] 图片上传成功: http://mmbiz.qpic.cn/mmbiz_jpg/saLP2vrCA0HSbOpFNlUZXAlWVAPGAWSeyk3MUQkNK1OjgZFXNoKy62L9Snxt5wH68rW7o1sukRiaHMDGxdFpGCw/0?from=appmsg[0m
+[2026-01-27T10:19:24.050+08:00] [INFO] 正在上传正文图片: img-1769464922714-u52dug.jpg
+[32m[2026-01-27T10:19:24.708+08:00] [SUCCESS] 图片上传成功: http://mmbiz.qpic.cn/mmbiz_jpg/saLP2vrCA0HSbOpFNlUZXAlWVAPGAWSenKt8J6vFXD1RLibnVv0f2jic2Iv8A3iaHnIpUsvtftibjdw5icsBsQAHVZg/0?from=appmsg[0m
+[2026-01-27T10:19:24.725+08:00] [INFO] 草稿已保存到本地: /Users/xuye/Documents/AI-CODE/obsidian-workspace/publish-article-to-wechat/draft/draft_2026-01-27.html
+[2026-01-27T10:19:24.726+08:00] [INFO] 正在创建草稿: AI 资讯汇总 2026-01-26
+[32m[2026-01-27T10:19:27.640+08:00] [SUCCESS] 草稿创建成功: media_id=69dz72H3jep_p6Ogot1KrQyMxJM6l7L4BPiD55hk-jA_43qrSb_IbJxyOMR2dn5o[0m
+[32m[2026-01-27T10:19:27.640+08:00] [SUCCESS] ✓ 草稿发布成功! media_id: 69dz72H3jep_p6Ogot1KrQyMxJM6l7L4BPiD55hk-jA_43qrSb_IbJxyOMR2dn5o[0m
+[32m[2026-01-27T10:19:27.641+08:00] [SUCCESS] 
+任务完成！草稿已发布到微信公众号[0m
+[2026-01-27 10:19:27] Task completed successfully.

@@ -2,10 +2,10 @@ import dotenv from 'dotenv';
 import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
-import ObsidianReader from './src/obsidian-reader.js';
-import MarkdownConverter from './src/markdown-converter.js';
-import WechatAPI from './src/wechat-api.js';
-import logger from './src/logger.js';
+import ObsidianReader from '../src/obsidian-reader.js';
+import MarkdownConverter from '../src/markdown-converter.js';
+import WechatAPI from '../src/wechat-api.js';
+import logger from '../src/logger.js';
 
 // 加载环境变量
 dotenv.config();
@@ -25,14 +25,11 @@ function ensureDir(dirPath) {
 /**
  * 保存草稿到本地
  */
-function saveDraftLocally(html, title, fileName = null) {
-    const draftDir = path.join(__dirname, 'draft');
+function saveDraftLocally(html, title, dateStr, index) {
+    const draftDir = path.join(path.dirname(__dirname), 'draft');
     ensureDir(draftDir);
 
-    if (!fileName) {
-        const today = new Date().toISOString().split('T')[0];
-        fileName = `draft_${today}.html`;
-    }
+    const fileName = `draft_${dateStr}_${index}.html`;
     const filePath = path.join(draftDir, fileName);
 
     // 生成完整的 HTML 文件
@@ -65,11 +62,15 @@ function saveDraftLocally(html, title, fileName = null) {
 }
 
 /**
- * 发布今日笔记到微信公众号草稿箱
+ * 发布指定日期的笔记
  */
-async function publishTodayNote() {
+async function publishNotesByDate(targetDate) {
     try {
-        logger.info('========== 开始发布笔记 ==========');
+        if (!targetDate) {
+            throw new Error('请提供目标日期，格式为 YYYY-MM-DD');
+        }
+
+        logger.info(`========== 开始发布 ${targetDate} 的笔记 ==========`);
 
         // 读取配置
         const appId = process.env.WECHAT_APP_ID;
@@ -90,14 +91,14 @@ async function publishTodayNote() {
         const converter = new MarkdownConverter();
         const wechatApi = new WechatAPI(appId, appSecret);
 
-        // 查找昨日所有笔记
-        const notePaths = reader.findAllYesterdayNotes();
+        // 查找指定日期的所有笔记
+        const notePaths = reader.findAllNotesByDate(targetDate);
         if (notePaths.length === 0) {
-            logger.warn('未找到昨日笔记,跳过发布');
+            logger.warn(`未找到 ${targetDate} 的笔记, 跳过发布`);
             return { success: false, reason: 'no_note' };
         }
 
-        logger.info(`找到 ${notePaths.length} 条昨日笔记`);
+        logger.info(`找到 ${notePaths.length} 条 ${targetDate} 的笔记`);
 
         // 记录发布结果
         const results = [];
@@ -108,15 +109,12 @@ async function publishTodayNote() {
             logger.info(`\n处理笔记 ${i + 1}/${notePaths.length}: ${path.basename(notePath)}`);
 
             try {
-                // 解析单篇笔记(只提取核心要点)
+                // 解析单篇笔记
                 const note = reader.parseNote(notePath, true);
 
-                // 清理标题,移除微信公众号不支持的特殊符号
+                // 清理标题
                 const cleanedTitle = converter.cleanTitle(note.title);
-                logger.info(`原标题: ${note.title}`);
-                logger.info(`清理后标题: ${cleanedTitle}`);
                 note.title = cleanedTitle;
-
                 logger.info(`准备发布笔记: ${note.title}`);
 
                 // 上传图片并获取 URL 映射
@@ -126,14 +124,11 @@ async function publishTodayNote() {
                 for (let j = 0; j < note.images.length; j++) {
                     const image = note.images[j];
                     try {
-                        // 第一张图片同时作为封面图
                         if (j === 0) {
                             const thumbResult = await wechatApi.uploadMaterial(image.localPath, 'image');
                             thumbMediaId = thumbResult.media_id;
-                            logger.info(`封面图上传成功: ${thumbResult.media_id}`);
+                            logger.info(`封面图上传成功: ${thumbMediaId}`);
                         }
-
-                        // 上传正文图片
                         const imageUrl = await wechatApi.uploadContentImage(image.localPath);
                         imageUrlMap.set(image.localPath, imageUrl);
                     } catch (error) {
@@ -141,20 +136,18 @@ async function publishTodayNote() {
                     }
                 }
 
-                // 转换 Markdown 为微信 HTML
+                // 转换 HTML
                 const articleHtml = converter.generateArticleHtml(note, imageUrlMap);
 
-                // 保存草稿到本地(文件名包含索引)
-                const today = new Date().toISOString().split('T')[0];
-                const fileName = `draft_${today}_${i + 1}.html`;
-                saveDraftLocally(articleHtml, note.title, fileName);
+                // 保存本地备份
+                saveDraftLocally(articleHtml, note.title, targetDate, i + 1);
 
                 // 创建微信草稿
                 if (thumbMediaId) {
                     const result = await wechatApi.createDraft({
                         title: note.title,
                         content: articleHtml,
-                        digest: note.digest.substring(0, 120), // 微信摘要限制 120 字
+                        digest: note.digest.substring(0, 120),
                         thumbMediaId: thumbMediaId,
                         author: accountName
                     });
@@ -172,19 +165,8 @@ async function publishTodayNote() {
             }
         }
 
-        // 汇总结果
-        const successCount = results.filter(r => r.success).length;
-        const failCount = results.length - successCount;
-
-        logger.info(`\n========== 发布完成 ==========`);
-        logger.info(`成功: ${successCount} 篇`);
-        logger.info(`失败: ${failCount} 篇`);
-
         return {
-            success: successCount > 0,
-            total: results.length,
-            successCount,
-            failCount,
+            success: results.some(r => r.success),
             results
         };
 
@@ -194,21 +176,23 @@ async function publishTodayNote() {
     }
 }
 
-// 如果直接运行此文件
-if (import.meta.url === `file://${process.argv[1]}`) {
-    publishTodayNote()
-        .then(result => {
-            if (result.success) {
-                logger.success(`\n任务完成！草稿已发布到微信公众号`);
-            } else {
-                logger.warn(`\n任务结束: ${result.reason}`);
-            }
-            process.exit(0);
-        })
-        .catch(error => {
-            logger.error('任务失败', error);
-            process.exit(1);
-        });
+// 获取命令行参数
+const targetDate = process.argv[2];
+if (!targetDate) {
+    console.error('用法: node scripts/publish-specific-date.js YYYY-MM-DD');
+    process.exit(1);
 }
 
-export default publishTodayNote;
+publishNotesByDate(targetDate)
+    .then(result => {
+        if (result.success) {
+            logger.success(`\n任务完成！`);
+        } else {
+            logger.warn(`\n任务结束: ${result.reason || '未成功发布任何笔记'}`);
+        }
+        process.exit(0);
+    })
+    .catch(error => {
+        logger.error('任务失败', error);
+        process.exit(1);
+    });

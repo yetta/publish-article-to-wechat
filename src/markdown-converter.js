@@ -101,6 +101,46 @@ class MarkdownConverter {
         result = result.replace(/<h3([^>]*style="[^"]*")([^>]*)>/g, '<h3$1>');
         result = result.replace(/<p([^>]*style="[^"]*")([^>]*)>/g, '<p$1>');
 
+        // 移除外部链接和相关提示文字
+        result = this.removeExternalLinks(result);
+
+        return result;
+    }
+
+    /**
+     * 移除外部链接和相关提示文字
+     * @param {string} html - HTML 内容
+     * @returns {string} - 处理后的 HTML
+     */
+    removeExternalLinks(html) {
+        let result = html;
+
+        // 移除独立的链接段落(整个段落只包含一个链接)
+        // 匹配: <p><a>阅读更多</a></p> 或 <p><a>xxx</a>- 详细报道</p>
+        const linkParagraphPatterns = [
+            // 匹配只包含 "阅读更多" 链接的段落
+            /<p[^>]*>\s*<a[^>]*>\s*(阅读更多|查看更多|了解更多|点击查看|查看详情)\s*<\/a>\s*<\/p>/gi,
+            // 匹配包含链接和 "- 详细报道" 的段落
+            /<p[^>]*>\s*<a[^>]*>[^<]+<\/a>\s*[-—]\s*(详细报道|更多信息|完整报道|深度报道)\s*<\/p>/gi,
+            // 匹配只包含 "使用 xxx" 链接的段落
+            /<p[^>]*>\s*<a[^>]*>\s*(使用|访问|体验|试用)[^<]*<\/a>\s*<\/p>/gi,
+        ];
+
+        linkParagraphPatterns.forEach(pattern => {
+            result = result.replace(pattern, '');
+        });
+
+        // 移除列表项中的 "阅读更多" 链接(保留列表项,只移除链接)
+        // 例如: <li>...内容...<a>阅读更多</a></li> -> <li>...内容...</li>
+        result = result.replace(/<a[^>]*>\s*(阅读更多|查看更多|了解更多)\s*<\/a>/gi, '');
+
+        // 移除所有剩余的 <a> 标签,保留链接文字
+        // 例如: <a href="...">文字</a> -> 文字
+        result = result.replace(/<a[^>]*>(.*?)<\/a>/gi, '$1');
+
+        // 清理可能残留的 "- 详细报道" 等文字
+        result = result.replace(/\s*[-—]\s*(详细报道|更多信息|完整报道|深度报道|阅读原文)\s*/gi, '');
+
         return result;
     }
 
