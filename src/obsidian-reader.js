@@ -274,8 +274,8 @@ class ObsidianReader {
             const line = lines[i];
             const trimmed = line.trim();
 
-            // 检测章节标题
-            if (trimmed.startsWith('##')) {
+            // 检测章节标题（只处理 ## 二级标题，### 及更深的标题视为普通内容）
+            if (trimmed.startsWith('## ')) {
                 const sectionTitle = trimmed.toLowerCase();
 
                 // 需要保留的章节
